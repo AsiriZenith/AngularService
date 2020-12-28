@@ -5,7 +5,6 @@ import { UserService } from 'src/app/services/user.service';
   selector: 'app-add-user',
   templateUrl: './add-user.component.html',
   styleUrls: ['./add-user.component.scss'],
-  providers: [UserService]
 })
 export class AddUserComponent implements OnInit {
 
